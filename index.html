@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+  <title>Blockchain Explorer Sandbox</title>
+</head>
+<body>
+  <h1> Blockchain.com API </h1>
+  <br>
+  <H3> Get Blockdata </H3>
+  <div class="container">
+    <form id = 'Blockchain-form'>
+      <!-- <div>
+        <label for="blockchain">Blockchain</label>
+        <input type="text" id = "Blockchain">
+      </div> -->
+      <!-- <div>
+        <label for="network">Network</label>
+        <input type="text" id = "Network">
+      </div> -->
+      <div>
+        <label for="blocknumber">Blocknumber</label>
+        <input type="number" id = "Blocknumber">
+      </div>
+      <div>
+        <button class="button" type="submit">
+          Get Details
+        </button>
+      </div>
+    </form>
+  </div>
+  <div class="container">
+    <div id="blockdetails"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
